@@ -36,7 +36,7 @@ model.add(Dense(63, activation='softmax'))
 model.compile(loss=keras.losses.categorical_crossentropy,
               optimizer=keras.optimizers.Adadelta(),
               metrics=['accuracy'])
-model.load_weights("digrecer.h5")
+model.load_weights("HandWritingWeights.h5")
 root=tk.ThemedTk()
 canvas_width = 500
 canvas_height = 200
